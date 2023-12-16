@@ -382,7 +382,7 @@ MEDIA QUERIES
     }
 
     .head {
-        padding: 30px 50px;
+        padding: 30px 65px;
     }
 
     .head .head-nav {
@@ -400,7 +400,7 @@ MEDIA QUERIES
     }
     
     .main .sec-1 .sec-1-txt h1, .main .sec-2 h1, .main .sec-3 .work-txt h1 {
-        font-size: 55px;
+        font-size: 60px;
     }
 
     .main .sec-1 {
@@ -408,16 +408,16 @@ MEDIA QUERIES
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         height: 75vh;
         background-image: url(./insure-landing-page-master/images/bg-pattern-intro-right-desktop.svg);
         background-position-y: top;
         background-position-x: right;
-        padding: 0 50px 35px;
+        padding: 0 65px 35px;
         margin-bottom: 160px;
     }
 
@@ -445,7 +445,7 @@ MEDIA QUERIES
     }
 
     .main .sec-2 h1 {
-        padding-left: 50px;
+        padding-left: 65px;
     }
 
     .main .sec-2 .about h2 {
@@ -453,7 +453,7 @@ MEDIA QUERIES
     }
     
     .main .sec-2 .about {
-        padding: 40px 50px 100px;
+        padding: 40px 65px 100px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -464,7 +464,7 @@ MEDIA QUERIES
     }
 
     .main .sec-3 {
-        padding: 0 58px 80px 28px;
+        padding: 0 68px 80px 38px;
     }
 
     .main .sec-3 .work {
@@ -478,18 +478,18 @@ MEDIA QUERIES
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         width: 100%;
         max-height: 100vh;
     }
 
     .main .sec-3 .work-txt h1 {
         -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
+        flex-basis: 50%;
         margin: 0;
         padding: 0;
     }
@@ -497,15 +497,14 @@ MEDIA QUERIES
 
     .main .sec-3 .work-txt p {
         -ms-flex-preferred-size: 35%;
-            flex-basis: 35%;
+        flex-basis: 35%;
         margin: 0;
         padding: 0;
     }
 
     .footer {
-        padding: 85px 50px;
+        padding: 85px 65px;
         background-image: url(./insure-landing-page-master/images/bg-pattern-footer-desktop.svg);
-        text-align: left;
     }
 
     .footer .footer-bottom {
@@ -513,8 +512,8 @@ MEDIA QUERIES
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        gap: 15%;
         font-size: 18px;
     }
 
@@ -527,8 +526,8 @@ MEDIA QUERIES
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         border-bottom: 1px solid hsl(273, 4%, 51%);
     }
 
@@ -540,11 +539,11 @@ MEDIA QUERIES
 
 @media (min-width: 1200px) {
     .head {
-        padding: 30px 70px;
+        padding: 30px 85px;
     }
 
     .main .sec-1 {
-        padding: 0 70px 35px;
+        padding: 0 85px 35px;
         margin-bottom: 170px;
     }
     
@@ -553,11 +552,11 @@ MEDIA QUERIES
     }
     
     .main .sec-2 h1 {
-        padding-left: 70px;
+        padding-left: 85px;
     }
 
     .main .sec-2 .about {
-        padding: 40px 70px 100px;
+        padding: 40px 85px 100px;
     }
 
     .main .sec-2 .about-us {
@@ -565,7 +564,7 @@ MEDIA QUERIES
     }
 
     .main .sec-3 {
-        padding: 0 78px 80px 48px;
+        padding: 0 88px 80px 58px;
     }
 
     .main .sec-3 .work-txt {
@@ -573,18 +572,18 @@ MEDIA QUERIES
     }
 
     .footer {
-        padding: 85px 70px;
+        padding: 85px 85px;
     }
 
 }
 
 @media (min-width: 1500px) {
     .head {
-        padding: 30px 90px;
+        padding: 30px 105px;
     }
 
     .main .sec-1 {
-        padding: 0 90px 35px;
+        padding: 0 105px 35px;
         margin-bottom: 180px;
     }
 
@@ -593,11 +592,11 @@ MEDIA QUERIES
     }
 
     .main .sec-2 h1 {
-        padding-left: 90px;
+        padding-left: 105px;
     }
 
     .main .sec-2 .about {
-        padding: 40px 90px 100px;
+        padding: 40px 105px 100px;
     }
 
     .main .sec-2 .about-us {
@@ -605,7 +604,7 @@ MEDIA QUERIES
     }
 
     .main .sec-3 {
-        padding: 0 98px 80px 68px;
+        padding: 0 108px 80px 78px;
     }
 
     .main .sec-3 .work-txt {
@@ -613,6 +612,6 @@ MEDIA QUERIES
     }
 
     .footer {
-        padding: 85px 90px;
+        padding: 85px 105px;
     }
 }
