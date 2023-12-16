@@ -5,6 +5,8 @@
 * Browsers: last 4 version
 */
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
 
 * {
@@ -503,6 +505,7 @@ MEDIA QUERIES
     .footer {
         padding: 85px 50px;
         background-image: url(./insure-landing-page-master/images/bg-pattern-footer-desktop.svg);
+        text-align: left;
     }
 
     .footer .footer-bottom {
