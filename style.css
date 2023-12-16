@@ -1,0 +1,615 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*::-moz-selection {
+    color: #fff;
+    background-color: #000;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+html, body {
+    scroll-behavior: smooth !important;
+    width: 100%;
+    height: 100%;
+    font-family: 'Karla', sans-serif;;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
+#side-nav p, .main .sec-1 p a, .main .sec-3 .work-txt p a, .head .head-nav p, .head .head-nav p.bordered-1 {
+    -webkit-transition: all 400ms ease-out 30ms;
+    -o-transition: all 400ms ease-out 30ms;
+    transition: all 400ms ease-out 30ms;
+    cursor: pointer;
+}
+
+/*
+Header Styles
+*/
+
+.head {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 24.2px;
+}
+
+.head i {
+    color: #2C2830;
+    -webkit-transition: all 370ms ease-in-out 30ms;
+    -o-transition: all 370ms ease-in-out 30ms;
+    transition: all 370ms ease-in-out 30ms;
+    background-color: #fff;
+    border: 2px solid #2C2830;
+    padding: 5px 6px;
+}
+
+.head i:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+}
+
+.head i:active {
+    -webkit-transform: scale(0.91);
+        -ms-transform: scale(0.91);
+            transform: scale(0.91);
+}
+
+.head #hi-2 {
+    display: none;
+    padding: 5px 7.1px;
+}
+
+.nav, .nav img {
+    width: 100%;
+}
+
+.head .head-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 26px;
+    display: none;
+}
+
+.head .head-nav p {
+    letter-spacing: 0.6px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.head .head-nav p.bordered-1 {
+    border: 2px solid #000;
+    padding: 11px 24px;
+    color: #000;
+}
+
+.head .head-nav p:hover {
+    color: #000;
+}
+
+.head .head-nav p.bordered-1:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/*
+Side Navigation Styles
+*/
+
+#side-nav {
+    background-image: url(./insure-landing-page-master/images/bg-pattern-mobile-nav.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    background-color: hsl(270, 9%, 17%);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+#side-nav p {
+    margin: 28px 0 10px 0;
+    font-size: 17.5px;
+}
+
+#side-nav p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#side-nav .top-p {
+    margin: -150px 0 0 0;
+}
+
+#side-nav p.bordered-2 {
+    border: 2px solid #fff;
+    margin-bottom: 85px;
+    padding: 15px 100px;
+}
+
+#side-nav p.bordered:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*
+Main Styles
+*/
+
+.main {
+    margin-top: -4.7px;
+}
+
+.main h1 {
+    line-height: 1.1;
+    letter-spacing: 0.85px;
+    font-size: 43px;
+    font-weight: 550;
+}
+
+.main p {
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+    padding-top: 18.5px;
+}
+
+/*
+Section-1 Styles
+*/
+
+.main .sec-1 {
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    padding-bottom: 35px;
+    margin-bottom: 140px;
+    background-image: url(./insure-landing-page-master/images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 65vh;
+}
+
+.main .sec-1 .sec-1-txt {
+    padding: 115px 30px 60px 30px;
+    text-align: center;
+    background-image: url(./insure-landing-page-master/images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+.main .sec-1 p a {
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 4.8;
+}
+
+.main .sec-1 p a:hover {
+    background: #fff ;
+    color: #000;
+    text-decoration: underline;
+}
+
+.main .sec-1 img {
+    display: none;
+}
+
+
+/*
+Section-2-About-Us Styles
+*/
+
+.main .sec-2 {
+    text-align: center;
+}
+
+.main .sec-2  h1 {
+    padding: 60px 30px 0px 30px;
+}
+
+.main .sec-2 h1 span {
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+
+.main .sec-2 .about {
+    padding: 40px 30px 100px;
+}
+
+.main .sec-2 .about-us {
+    padding: 35px 0;
+}
+
+.main .sec-2 .about-us h2 {
+    font-weight: 550;
+    font-size: 27px;
+}
+
+.main .sec-2 .about-us p {
+    color: hsl(273, 4%, 51%);
+}
+
+.main .sec-2 .about-us svg {
+    margin-bottom: 31.5px;
+}
+
+/*
+Section-3 Styles
+*/
+
+.main .sec-3 {
+    text-align: center;
+    color: #fff;
+    padding: 0 18px 80px;
+}
+
+.main .sec-3 .work {
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(./insure-landing-page-master/images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.main .sec-3 .work-txt {
+    padding: 75px 30px;
+}
+
+.main .sec-3 .work-txt h1 {
+    line-height: 0.9;
+    margin-bottom: 30px;
+}
+
+.main .sec-3 .work-txt p a {
+    border: 2px solid #fff;
+    padding: 10px 30px;
+}
+
+.main .sec-3 .work-txt p a:hover {
+    background: #fff ;
+    color: #000;
+    text-decoration: underline;
+}
+
+/*
+Footer Styles
+*/
+
+.footer {
+    background: hsl(0, 0%, 98%);
+    padding: 85px 30px;
+    text-align: center;
+    background-image: url(insure-landing-page-master/images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+} 
+
+.footer .footer-top .logo {
+    margin-bottom: 30px;
+}
+
+.footer .footer-top .socials {
+    border-bottom: 1px solid hsl(273, 4%, 51%);
+    padding-bottom: 28px;
+}
+
+.footer .footer-top .socials svg {
+    margin: 0 8px;
+}
+
+.footer .footer-bottom {
+    margin-top: 48px;
+}
+
+.footer .footer-txt {
+    margin-top: 31px;
+}
+
+.footer .footer-txt p, .footer .footer-txt p a {
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+    color: hsl(256, 26%, 20%);
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.footer .footer-txt p a:hover {
+    border-bottom: 2px solid hsl(256, 26%, 20%);
+}
+
+.footer .footer-txt .f-top {
+    margin-bottom: 28px;
+    font-size: 15px;
+    color: hsl(273, 4%, 51%);
+}
+
+/*
+MEDIA QUERIES
+*/
+
+@media (min-width: 950px) {
+
+    .nav {
+        display: none;
+    }
+
+    .head {
+        padding: 30px 50px;
+    }
+
+    .head .head-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .head i {
+        display: none !important;
+    }
+
+    .head .head-nav p, .main .sec-1 .sec-1-txt p, .main .sec-2 .about p, .main .sec-3 .work-txt p {
+        font-size: 18px;
+    }
+    
+    .main .sec-1 .sec-1-txt h1, .main .sec-2 h1, .main .sec-3 .work-txt h1 {
+        font-size: 55px;
+    }
+
+    .main .sec-1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 75vh;
+        background-image: url(./insure-landing-page-master/images/bg-pattern-intro-right-desktop.svg);
+        background-position-y: top;
+        background-position-x: right;
+        padding: 0 50px 35px;
+        margin-bottom: 160px;
+    }
+
+    .main .sec-1 .sec-1-txt {
+        background: none;
+        text-align: left;
+        margin: 0;
+        padding: 0 10px 0 0;
+    }
+
+    .main .sec-1 .sec-1-txt h1 span {
+        border-top: 1px solid #fff;
+        padding-top: 25px;
+    }
+
+    .main .sec-1 img {
+        display: inline;
+        margin-bottom: -15%;
+    }
+
+    .main .sec-2 {
+        text-align: left;
+        background-image: url(./insure-landing-page-master/images/bg-pattern-intro-left-desktop.svg);
+        background-repeat: no-repeat;
+    }
+
+    .main .sec-2 h1 {
+        padding-left: 50px;
+    }
+
+    .main .sec-2 .about h2 {
+        font-size: 29px;
+    }
+    
+    .main .sec-2 .about {
+        padding: 40px 50px 100px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .main .sec-2 .about-us {
+        padding: 35px 20px;
+    }
+
+    .main .sec-3 {
+        padding: 0 58px 80px 28px;
+    }
+
+    .main .sec-3 .work {
+        background-image: url(./insure-landing-page-master/images/bg-pattern-how-we-work-desktop.svg);
+    }
+
+
+    .main .sec-3 .work-txt {
+        padding: 75px 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 100%;
+        max-height: 100vh;
+    }
+
+    .main .sec-3 .work-txt h1 {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .main .sec-3 .work-txt p {
+        -ms-flex-preferred-size: 35%;
+            flex-basis: 35%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        padding: 85px 50px;
+        background-image: url(./insure-landing-page-master/images/bg-pattern-footer-desktop.svg);
+    }
+
+    .footer .footer-bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        font-size: 18px;
+    }
+
+    .footer .footer-bottom p.f-top {
+        font-size: 16.5px;
+    }
+    
+    .footer .footer-top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        border-bottom: 1px solid hsl(273, 4%, 51%);
+    }
+
+    .footer .socials {
+        border-bottom: none !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .head {
+        padding: 30px 70px;
+    }
+
+    .main .sec-1 {
+        padding: 0 70px 35px;
+        margin-bottom: 170px;
+    }
+    
+    .main .sec-1 .sec-1-txt h1 span {
+        padding-top: 43.5px;
+    }
+    
+    .main .sec-2 h1 {
+        padding-left: 70px;
+    }
+
+    .main .sec-2 .about {
+        padding: 40px 70px 100px;
+    }
+
+    .main .sec-2 .about-us {
+        padding: 35px 15px;
+    }
+
+    .main .sec-3 {
+        padding: 0 78px 80px 48px;
+    }
+
+    .main .sec-3 .work-txt {
+        padding: 75px 50px;
+    }
+
+    .footer {
+        padding: 85px 70px;
+    }
+
+}
+
+@media (min-width: 1500px) {
+    .head {
+        padding: 30px 90px;
+    }
+
+    .main .sec-1 {
+        padding: 0 90px 35px;
+        margin-bottom: 180px;
+    }
+
+    .main .sec-1 .sec-1-txt h1 span {
+        padding-top: 46.5px;
+    }
+
+    .main .sec-2 h1 {
+        padding-left: 90px;
+    }
+
+    .main .sec-2 .about {
+        padding: 40px 90px 100px;
+    }
+
+    .main .sec-2 .about-us {
+        padding: 35px 15px;
+    }
+
+    .main .sec-3 {
+        padding: 0 98px 80px 68px;
+    }
+
+    .main .sec-3 .work-txt {
+        padding: 75px 60px;
+    }
+
+    .footer {
+        padding: 85px 90px;
+    }
+}
