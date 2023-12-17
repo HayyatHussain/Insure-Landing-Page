@@ -31,7 +31,7 @@ function toggle () {
     
     // Animate the button alternation
     gsap.from(toggle2, {
-        y: -250,
+        rotation: 360,
         duration: 0.2
     })
 
@@ -55,7 +55,7 @@ function toggle01 () {
 
     // Animate the button alternation
     gsap.from(toggle1, {
-        y: -250,
+        rotation: 360,
         duration: 0.2
     })
 
