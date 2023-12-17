@@ -4,12 +4,12 @@ toggle2 = document.getElementById("hi-2"),
 sidenav = document.getElementById("side-nav");
 
 // Add a float-like effect on the main intro image (desktop) using GSAP
-gsap.from(".sec-1 img", {
+/*gsap.from(".sec-1 img", {
     y: 15,
     duration: 1.8,
     yoyo: "true",
     repeat: -1
-})
+})*/
 
 // Add a float-like effect on the button (about-work section) using GSAP
 /*gsap.from(".work-txt p", {
@@ -22,7 +22,7 @@ gsap.from(".sec-1 img", {
 
 // Run a function to make the side navigation panel visible to the user and change the buttons
 
-function toggle () {
+/*function toggle () {
     // Hide the (three bars) navigation button
     toggle1.style.display = 'none';
 
@@ -68,4 +68,4 @@ function toggle01 () {
 
 // Execute the two functions on alternating clicks
 toggle1.addEventListener('click', toggle);
-toggle2.addEventListener('click', toggle01);
+toggle2.addEventListener('click', toggle01);*/
