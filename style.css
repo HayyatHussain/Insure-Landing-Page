@@ -181,7 +181,6 @@ Side Navigation Styles
     color: #000;
 }
 
-
 /*
 Main Styles
 */
@@ -414,7 +413,8 @@ MEDIA QUERIES
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: 75vh;
+        vertcal-align: center;
+        height: 79vh;
         background-image: url(./insure-landing-page-master/images/bg-pattern-intro-right-desktop.svg);
         background-position-y: top;
         background-position-x: right;
@@ -426,7 +426,7 @@ MEDIA QUERIES
         background: none;
         text-align: left;
         margin: 0;
-        padding: 0 10px 0 0;
+        padding: 2rem 10px 0 0;
     }
 
     .main .sec-1 .sec-1-txt h1 span {
