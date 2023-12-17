@@ -351,6 +351,7 @@ Footer Styles
 
 .footer .footer-txt {
     margin-top: 31px;
+    text-align: left;
 }
 
 .footer .footer-txt p, .footer .footer-txt p a {
