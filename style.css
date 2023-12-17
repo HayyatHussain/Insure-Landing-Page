@@ -514,7 +514,7 @@ MEDIA QUERIES
         display: flex;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        gap: 18%;
+        gap: 12.68%;
         font-size: 18px;
     }
 
