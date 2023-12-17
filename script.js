@@ -31,16 +31,16 @@ function toggle () {
     
     // Animate the button alternation
     gsap.from(toggle2, {
-        y: 1000,
+        y: 600,
         opacity: 0,
         rotationY: 900,
-        duration: 0.2
+        duration: 0.35
     })
 
     // Animate the side navigation panel (while expanding it)
     gsap.to(sidenav, {
         height: 531,
-        duration: 1
+        duration: 0.6
     })
 
 }
@@ -57,16 +57,16 @@ function toggle01 () {
 
     // Animate the button alternation
     gsap.from(toggle1, {
-        y: 1000,
+        y: 600,
         opacity: 0,
         rotationY: 900,
-        duration: 0.2
+        duration: 0.35
     })
 
     // Animate the side navigation panel (while closing it)
     gsap.to(sidenav, {
         height: 0,
-        duration: 1
+        duration: 0.6
     })
 }
 
