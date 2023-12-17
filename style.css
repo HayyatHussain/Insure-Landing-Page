@@ -11,7 +11,7 @@
 
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -55,11 +55,11 @@ Header Styles
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 30px 24.2px;
 }
 
@@ -81,8 +81,8 @@ Header Styles
 
 .head i:active {
     -webkit-transform: scale(0.91);
-        -ms-transform: scale(0.91);
-            transform: scale(0.91);
+    -ms-transform: scale(0.91);
+    transform: scale(0.91);
 }
 
 .head #hi-2 {
@@ -99,8 +99,8 @@ Header Styles
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 26px;
     display: none;
 }
@@ -141,14 +141,14 @@ Side Navigation Styles
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     color: #fff;
     background-color: hsl(270, 9%, 17%);
     width: 100%;
@@ -176,7 +176,7 @@ Side Navigation Styles
     padding: 15px 100px;
 }
 
-#side-nav p.bordered:hover {
+#side-nav p.bordered-2:hover {
     background-color: #fff;
     color: #000;
 }
@@ -242,7 +242,6 @@ Section-1 Styles
 .main .sec-1 img {
     display: none;
 }
-
 
 /*
 Section-2-About-Us Styles
