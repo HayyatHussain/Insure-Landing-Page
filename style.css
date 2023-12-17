@@ -414,7 +414,7 @@ MEDIA QUERIES
         -ms-flex-align: center;
         align-items: center;
         vertcal-align: center;
-        height: 79vh;
+        height: 85vh;
         background-image: url(./insure-landing-page-master/images/bg-pattern-intro-right-desktop.svg);
         background-position-y: top;
         background-position-x: right;
@@ -426,7 +426,7 @@ MEDIA QUERIES
         background: none;
         text-align: left;
         margin: 0;
-        padding: 2rem 10px 0 0;
+        padding: 6.5rem 10px 0 0;
     }
 
     .main .sec-1 .sec-1-txt h1 span {
@@ -436,7 +436,7 @@ MEDIA QUERIES
 
     .main .sec-1 img {
         display: inline;
-        margin-bottom: -15%;
+        margin-bottom: -20%;
     }
 
     .main .sec-2 {
