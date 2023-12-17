@@ -12,12 +12,12 @@ gsap.from(".sec-1 img", {
 })
 
 // Add a float-like effect on the button (about-work section) using GSAP
-gsap.from(".work-txt p", {
+/*gsap.from(".work-txt p", {
     x: 30,
     duration: 4,
     yoyo: "true",
     repeat: -1
-})
+})*/
 
 
 // Run a function to make the side navigation panel visible to the user and change the buttons
