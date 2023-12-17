@@ -311,10 +311,12 @@ Section-3 Styles
 .main .sec-3 .work-txt p a {
     border: 2px solid #fff;
     padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .main .sec-3 .work-txt p a:hover {
-    background: #fff ;
+    background-color: #fff;
     color: #000;
     text-decoration: underline;
 }
