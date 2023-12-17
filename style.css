@@ -453,16 +453,18 @@ MEDIA QUERIES
         font-size: 29px;
     }
     
+
     .main .sec-2 .about {
         padding: 40px 65px 100px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        gap: 5%;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: space-between; /* Adjust spacing between items */
     }
 
     .main .sec-2 .about-us {
-        padding: 35px 0 !important;
+        flex-basis: calc(33.333% - 10px); /* Adjust the percentage based on your desired spacing */
+        margin-bottom: 20px; /* Adjust the margin between items */
+        padding: 35px 0;
     }
 
     .main .sec-3 {
