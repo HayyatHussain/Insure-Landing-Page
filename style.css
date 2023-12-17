@@ -458,14 +458,11 @@ MEDIA QUERIES
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        gap: 5%;
     }
 
     .main .sec-2 .about-us {
-        padding: 35px 20px 35px 0;
-    }
-
-    .main .sec-2 .about-us-1, .main .sec-2 .about-us-2 {
-        padding-left: 10px;
+        padding: 35px 0;
     }
 
     .main .sec-3 {
@@ -562,10 +559,6 @@ MEDIA QUERIES
 
     .main .sec-2 .about {
         padding: 40px 85px 100px;
-    }
-
-    .main .sec-2 .about-us {
-        padding: 35px 15px 35px 0;
     }
 
     .main .sec-3 {
