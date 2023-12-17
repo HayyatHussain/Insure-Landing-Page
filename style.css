@@ -83,7 +83,6 @@ Header Styles
     -webkit-transform: scale(0.91);
     -ms-transform: scale(0.91);
     transform: scale(0.91);
-    transform: rotate3d(0, 1, 0, 360deg);
 }
 
 .head #hi-2 {
