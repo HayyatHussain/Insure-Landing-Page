@@ -464,6 +464,10 @@ MEDIA QUERIES
         padding: 35px 20px 35px 0;
     }
 
+    .main .sec-2 .about-us-1, .main .sec-2 .about-us-2 {
+        padding-left: 10px;
+    }
+
     .main .sec-3 {
         padding: 0 68px 80px 38px;
     }
