@@ -136,6 +136,7 @@ Side Navigation Styles
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-position-x: right;
+    background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
