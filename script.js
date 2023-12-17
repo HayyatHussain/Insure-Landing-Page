@@ -5,7 +5,7 @@ sidenav = document.getElementById("side-nav");
 
 // Add a float-like effect on the main intro image (desktop) using GSAP
 gsap.from(".sec-1 img", {
-    y: 15,
+    y: -15,
     duration: 1.8,
     yoyo: "true",
     repeat: -1
