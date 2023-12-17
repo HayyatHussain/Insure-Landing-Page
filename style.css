@@ -462,7 +462,7 @@ MEDIA QUERIES
     }
 
     .main .sec-2 .about-us {
-        padding: 35px 0;
+        padding: 35px 0 !important;
     }
 
     .main .sec-3 {
