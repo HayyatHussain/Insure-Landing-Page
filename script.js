@@ -29,11 +29,11 @@ function toggle () {
     // Display the (X-sign) navigation button
     toggle2.style.display = 'block';
     
-    /*   // Animate the button alternation
+    // Animate the button alternation
     gsap.from(toggle2, {
-        rotation: 360,
+        rotationY: 900,
         duration: 0.2
-    })*/
+    })
 
     // Animate the side navigation panel (while expanding it)
     gsap.to(sidenav, {
@@ -53,11 +53,11 @@ function toggle01 () {
     toggle2.style.display = 'none';
 
 
-    /*// Animate the button alternation
+    // Animate the button alternation
     gsap.from(toggle1, {
-        rotation: 360,
+        rotationY: 900,
         duration: 0.2
-    })*/
+    })
 
     // Animate the side navigation panel (while closing it)
     gsap.to(sidenav, {
