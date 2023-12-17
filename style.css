@@ -453,18 +453,16 @@ MEDIA QUERIES
         font-size: 29px;
     }
     
-
     .main .sec-2 .about {
         padding: 40px 65px 100px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap; /* Allow items to wrap to the next line */
-        justify-content: space-between; /* Adjust spacing between items */
+        gap: 4.5%;
     }
 
     .main .sec-2 .about-us {
-        flex-basis: calc(33.333% - 10px); /* Adjust the percentage based on your desired spacing */
-        margin-bottom: 20px; /* Adjust the margin between items */
-        padding: 35px 0;
+        padding: 35px 0 !important;
     }
 
     .main .sec-3 {
@@ -561,6 +559,7 @@ MEDIA QUERIES
 
     .main .sec-2 .about {
         padding: 40px 85px 100px;
+        gap: 3.5%;
     }
 
     .main .sec-3 {
@@ -597,6 +596,7 @@ MEDIA QUERIES
 
     .main .sec-2 .about {
         padding: 40px 105px 100px;
+        gap: 2.5%;
     }
 
     .main .sec-3 {
@@ -611,3 +611,4 @@ MEDIA QUERIES
         padding: 85px 105px;
     }
 }
+
