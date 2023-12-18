@@ -7,7 +7,7 @@ sidenav = document.getElementById("side-nav");
 gsap.from(".sec-1 img", {
     y: 15,
     duration: 1.8,
-    yoyo: "true",
+    yoyo: true,
     repeat: -1
 })
 
@@ -15,7 +15,7 @@ gsap.from(".sec-1 img", {
 gsap.from(".work-txt p", {
     x: 30,
     duration: 4,
-    yoyo: "true",
+    yoyo: true,
     repeat: -1
 })
 
