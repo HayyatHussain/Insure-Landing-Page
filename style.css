@@ -396,16 +396,12 @@ MEDIA QUERIES
         display: none !important;
     }
 
-    /*.head .head-nav p, .main .sec-1 .sec-1-txt p, .main .sec-2 .about p, .main .sec-3 .work-txt p {
-        font-size: 18px;
-    }*/
-
     .main .sec-1 .sec-1-txt h1 {
-        line-height: 0.9 !important;
+        line-height: 1;
     }
     
     .main .sec-1 .sec-1-txt h1, .main .sec-2 h1, .main .sec-3 .work-txt h1 {
-        font-size: 60px;
+        font-size: 64px;
     }
 
     .main .sec-1 {
@@ -455,10 +451,6 @@ MEDIA QUERIES
     .main .sec-2 h1 {
         padding-left: 65px;
     }
-
-    /*.main .sec-2 .about h2 {
-        font-size: 29px;
-    }*/
     
     .main .sec-2 .about {
         padding: 40px 65px 100px;
@@ -478,7 +470,6 @@ MEDIA QUERIES
     .main .sec-3 .work {
         background-image: url(./insure-landing-page-master/images/bg-pattern-how-we-work-desktop.svg);
     }
-
 
     .main .sec-3 .work-txt {
         padding: 45px 40px;
@@ -501,8 +492,7 @@ MEDIA QUERIES
         margin: 0;
         padding: 0;
     }
-
-
+    
     .main .sec-3 .work-txt p {
         -ms-flex-preferred-size: 35%;
         flex-basis: 35%;
@@ -522,12 +512,11 @@ MEDIA QUERIES
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         gap: 13.4%;
-        /*font-size: 18px;*/
     }
 
-    /*.footer .footer-bottom p.f-top {
-        font-size: 16.5px;
-    }*/
+    .footer .footer-txt {
+        text-align: left;
+    }
     
     .footer .footer-top {
         display: -webkit-box;
@@ -625,4 +614,3 @@ MEDIA QUERIES
         padding: 85px 105px;
     }
 }
-
