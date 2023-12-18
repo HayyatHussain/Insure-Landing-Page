@@ -401,7 +401,8 @@ MEDIA QUERIES
     }*/
 
     .main .sec-1 .sec-1-txt h1 {
-        line-height: 0.87 !important;
+        line-height: 0.9 !important;
+    }
     
     .main .sec-1 .sec-1-txt h1, .main .sec-2 h1, .main .sec-3 .work-txt h1 {
         font-size: 60px;
