@@ -296,7 +296,7 @@ Section-3 Styles
     background-image: url(./insure-landing-page-master/images/bg-pattern-how-we-work-mobile.svg);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: 100%;
+    background-size: 45% 100%;
 }
 
 .main .sec-3 .work-txt {
@@ -470,7 +470,7 @@ MEDIA QUERIES
 
     .main .sec-3 .work {
         background-image: url(./insure-landing-page-master/images/bg-pattern-how-we-work-desktop.svg);
-        background-size: 100%;
+        background-size: 45% 100%;
     }
 
     .main .sec-3 .work-txt {
