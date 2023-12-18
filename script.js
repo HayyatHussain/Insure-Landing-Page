@@ -44,9 +44,9 @@ function toggle () {
     })
 
     // Animate the text inside the side navigation panel
-    gsap.from(".nav #side-nav p", {
+    gsap.from([".nav #side-nav p", ".nav #side-nav p.bordered-2"], {
         opacity: 0,
-        y: 150,
+        y: -150,
         duration: 0.5,
         stagger: 0.15,
         delay: 0.15
@@ -79,7 +79,7 @@ function toggle01 () {
     })
 
     // Animate the text inside the side navigation panel
-    gsap.to(".nav #side-nav p", {
+    gsap.to([".nav #side-nav p", ".nav #side-nav p.bordered-2"], {
         opacity: 1,
         y: 0,
         duration: 0.5,
