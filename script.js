@@ -44,11 +44,12 @@ function toggle () {
     })
 
     // Animate the text inside the side navigation panel
-    gsap.from("#sidenav p", {
+    gsap.from(".nav #side-nav p", {
         opacity: 0,
         y: 150,
         duration: 0.5,
-        stagger: 0.2
+        stagger: 0.15,
+        delay: 0.15
     })
 
 }
@@ -78,11 +79,12 @@ function toggle01 () {
     })
 
     // Animate the text inside the side navigation panel
-    gsap.from("#sidenav p", {
+    gsap.to(".nav #side-nav p", {
         opacity: 0,
         y: 150,
         duration: 0.5,
-        stagger: 0.2
+        stagger: 0.15,
+        delay: 0.15
     })
 }
 
