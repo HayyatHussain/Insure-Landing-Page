@@ -441,6 +441,8 @@ MEDIA QUERIES
 
     .main .sec-1 img {
         display: inline !important;
+        max-width: 100%;
+        height: auto;
         margin-bottom: -20%;
     }
 
