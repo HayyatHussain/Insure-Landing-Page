@@ -69,14 +69,13 @@ function toggle01 () {
     })
 
     // Set the initial state 
-    gsap.set("#side-nav p", { y: 0, });
+    gsap.set("#side-nav p", { y: 0, opacity: 1 });
     
     // Animate the text inside the side navigation panel
     gsap.from("#side-nav p", {
-        opacity: 0,
         y: -700,
-        duration: 1,
-        stagger: 0.3
+        duration: 0.9,
+        stagger: 0.25
     })
 }
 
