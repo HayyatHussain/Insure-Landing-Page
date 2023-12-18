@@ -34,7 +34,7 @@ function toggle () {
         y: 600,
         opacity: 0,
         rotationY: 900,
-        duration: 0.35
+        duration: 0.4
     })
 
     // Animate the side navigation panel (while expanding it)
@@ -44,12 +44,11 @@ function toggle () {
     })
 
     // Animate the text inside the side navigation panel
-    gsap.from("#side-nav p" {
+    gsap.from("#side-nav p", {
         opacity: 0,
         y: -150,
         duration: 0.5,
-        stagger: 0.1,
-        delay: 0.1
+        stagger: 0.1
     })
 
 }
@@ -83,8 +82,7 @@ function toggle01 () {
         opacity: 1,
         y: -150,
         duration: 0.5,
-        stagger: 0.1,
-        delay: 0.1
+        stagger: 0.1
     })
 }
 
