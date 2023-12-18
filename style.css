@@ -351,7 +351,6 @@ Footer Styles
 
 .footer .footer-txt {
     margin-top: 31px;
-    text-align: left;
 }
 
 .footer .footer-txt p, .footer .footer-txt p a {
@@ -397,9 +396,12 @@ MEDIA QUERIES
         display: none !important;
     }
 
-    .head .head-nav p, .main .sec-1 .sec-1-txt p, .main .sec-2 .about p, .main .sec-3 .work-txt p {
+    /*.head .head-nav p, .main .sec-1 .sec-1-txt p, .main .sec-2 .about p, .main .sec-3 .work-txt p {
         font-size: 18px;
-    }
+    }*/
+
+    .main .sec-1 .sec-1-txt h1 {
+        line-height: 0.87 !important;
     
     .main .sec-1 .sec-1-txt h1, .main .sec-2 h1, .main .sec-3 .work-txt h1 {
         font-size: 60px;
@@ -433,7 +435,7 @@ MEDIA QUERIES
 
     .main .sec-1 .sec-1-txt h1 span {
         border-top: 1px solid #fff;
-        padding-top: 25px;
+        padding-top: 1.18rem;
     }
 
     .main .sec-1 img {
@@ -451,9 +453,9 @@ MEDIA QUERIES
         padding-left: 65px;
     }
 
-    .main .sec-2 .about h2 {
+    /*.main .sec-2 .about h2 {
         font-size: 29px;
-    }
+    }*/
     
     .main .sec-2 .about {
         padding: 40px 65px 100px;
@@ -517,12 +519,12 @@ MEDIA QUERIES
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         gap: 13.4%;
-        font-size: 18px;
+        /*font-size: 18px;*/
     }
 
-    .footer .footer-bottom p.f-top {
+    /*.footer .footer-bottom p.f-top {
         font-size: 16.5px;
-    }
+    }*/
     
     .footer .footer-top {
         display: -webkit-box;
@@ -548,6 +550,7 @@ MEDIA QUERIES
     .main .sec-1 {
         padding: 0 85px 35px;
         margin-bottom: 170px;
+        height: 81.5vh;
     }
     
     .main .sec-1 .sec-1-txt h1 span {
@@ -588,6 +591,7 @@ MEDIA QUERIES
     .main .sec-1 {
         padding: 0 105px 35px;
         margin-bottom: 180px;
+        height: 78vh;
     }
 
     .main .sec-1 .sec-1-txt h1 span {
