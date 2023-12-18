@@ -40,7 +40,15 @@ function toggle () {
     // Animate the side navigation panel (while expanding it)
     gsap.to(sidenav, {
         height: 531,
-        duration: 0.6
+        duration: 0.7
+    })
+
+    // Animate the text inside the side navigation panel
+    gsap.from("#sidenav p", {
+        opacity: 0,
+        y: 150,
+        duration: 0.5,
+        stagger: 0.2
     })
 
 }
@@ -66,7 +74,15 @@ function toggle01 () {
     // Animate the side navigation panel (while closing it)
     gsap.to(sidenav, {
         height: 0,
-        duration: 0.6
+        duration: 0.7
+    })
+
+    // Animate the text inside the side navigation panel
+    gsap.from("#sidenav p", {
+        opacity: 0,
+        y: 150,
+        duration: 0.5,
+        stagger: 0.2
     })
 }
 
