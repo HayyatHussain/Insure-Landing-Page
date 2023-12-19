@@ -79,7 +79,7 @@ Header Styles
     background-color: #000;
 }
 
-.head i:active {
+.head #hi-1,.head #hi-2:active {
     -webkit-transform: scale(0.91);
     -ms-transform: scale(0.91);
     transform: scale(0.91);
