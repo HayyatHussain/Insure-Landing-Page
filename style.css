@@ -513,7 +513,7 @@ MEDIA QUERIES
         display: flex;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        gap: 13.4%;
+        gap: 14.4%;
     }
 
     .footer .footer-txt {
