@@ -465,7 +465,7 @@ MEDIA QUERIES
     }
 
     .main .sec-3 {
-        padding: 0 68px 80px 38px;
+        padding: 0 68px 80px 68px;
     }
 
     .main .sec-3 .work {
@@ -490,7 +490,7 @@ MEDIA QUERIES
 
     .main .sec-3 .work-txt h1 {
         -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+        flex-basis: 55%;
         margin: 0;
         padding: 0;
     }
@@ -564,7 +564,7 @@ MEDIA QUERIES
     }
 
     .main .sec-3 {
-        padding: 0 88px 80px 58px;
+        padding: 0 88px 80px 88px;
     }
 
     .main .sec-3 .work-txt {
@@ -605,7 +605,7 @@ MEDIA QUERIES
     }
 
     .main .sec-3 {
-        padding: 0 108px 80px 78px;
+        padding: 0 108px 80px 108px;
     }
 
     .main .sec-3 .work-txt {
