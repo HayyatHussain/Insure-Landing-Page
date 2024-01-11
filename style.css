@@ -465,6 +465,8 @@ MEDIA QUERIES
 
     .main .sec-3 {
         padding: 0 68px 80px 68px;
+        margin-top: 50px;
+        margin-bottom: 100px;
     }
 
     .main .sec-3 .work {
