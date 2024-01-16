@@ -49,8 +49,8 @@ function toggle () {
     // Animate the text inside the side navigation panel
     gsap.to("#side-nav p", {
         y: 0,
-        duration: 0.9,
-        stagger: 0.25
+        duration: 0.6,
+        stagger: 0.22
     })
 }
 
