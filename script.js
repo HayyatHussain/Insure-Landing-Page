@@ -42,6 +42,16 @@ function toggle () {
         height: 531,
         duration: 0.9
     })
+
+    // Set the initial state 
+    gsap.set("#side-nav p", { y: -700, opacity: 1 });
+    
+    // Animate the text inside the side navigation panel
+    gsap.from("#side-nav p", {
+        y: 0,
+        duration: 0.9,
+        stagger: 0.25
+    })
 }
 
 // Run a function to make the side navigation panel invisible to the user and change the buttons
@@ -66,16 +76,6 @@ function toggle01 () {
     gsap.to(sidenav, {
         height: 0,
         duration: 0.9
-    })
-
-    // Set the initial state 
-    gsap.set("#side-nav p", { y: 0, opacity: 1 });
-    
-    // Animate the text inside the side navigation panel
-    gsap.from("#side-nav p", {
-        y: -700,
-        duration: 0.9,
-        stagger: 0.25
     })
 }
 
